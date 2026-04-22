@@ -1,0 +1,17 @@
+node_modules
+.keystone
+*.db
+*.db-journal
+.env
+.env*.local
+public/images/*
+!public/images/.gitkeep
+
+# web (Next.js)
+.next
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# editor/agent local settings
+.claude/settings.local.json
