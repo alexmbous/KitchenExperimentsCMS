@@ -7,7 +7,7 @@
     "start": "keystone start",
     "build": "keystone build",
     "seed": "tsx seed.ts",
-    "postinstall": "keystone postinstall"
+    "postinstall": "keystone postinstall --fix"
   },
   "dependencies": {
     "@keystone-6/auth": "^8.0.0",
