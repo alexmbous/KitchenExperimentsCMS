@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "keystone dev",
-    "start": "keystone start",
+    "start": "keystone prisma db push --accept-data-loss && keystone start",
     "build": "keystone build",
     "seed": "tsx seed.ts",
     "postinstall": "keystone postinstall --fix"
